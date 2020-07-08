@@ -23,3 +23,10 @@ case "b", "c", "d", "f", "g", "h", "j", "k", "l", "m",
 default:
     print("\(someCharacter) is not a vowel or a consonant")
 }
+
+var stop: Bool = false
+
+while !stop {
+    print("use while loop by the stop: \(stop)")
+    stop = true
+}

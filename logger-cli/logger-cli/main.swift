@@ -12,12 +12,12 @@ let command = Command()
 let stdin = FileHandle.standardInput
 let input = NSString(data: stdin.availableData, encoding: String.Encoding.utf8.rawValue)
 
-if input == "start" {
+if input == "start\n" {
     print("app start...")
-} else if input == "stop" {
+} else if input == "stop\n" {
     print("app will stop")
 } else {
     print("unknown words")
 }
 
-print(input?.length as Any)
+print(input as Any)

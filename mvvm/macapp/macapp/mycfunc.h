@@ -10,6 +10,10 @@
 #define mycfunc_h
 
 #include <stdio.h>
+#include "libavutil/avutil.h"
+#include "libavdevice/avdevice.h"
+#include "libavformat/avformat.h"
+
 void handleClick(void);
 
 #endif /* mycfunc_h */

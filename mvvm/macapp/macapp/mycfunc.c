@@ -14,6 +14,6 @@ void handleClick()
 {
     printf("call c function\n");
     av_log_set_level(AV_LOG_DEBUG);
-    av_log(NULL, AV_LOG_DEBUG, "Hello from av_log()");
+    av_log(NULL, AV_LOG_DEBUG, "Hello from av_log()\n");
     return;
 }

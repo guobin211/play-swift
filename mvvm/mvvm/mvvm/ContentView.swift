@@ -15,7 +15,7 @@ struct ContentView: View {
             Image("Bg").clipShape(Circle()).shadow(radius: 5).offset(y: -40)
             Text("Swift").font(.title).foregroundColor(.red)
             HStack {
-                Text("Hello, ios!").font(.body)
+                Text("Hello, ios!").font(.body).lineLimit(1).accentColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
                 Spacer()
                 Text("2020-07-10")
             }
